@@ -1,0 +1,16 @@
+{
+  "name": "xiaozhi-music-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Netease Cloud Music bridge for xiaozhi-esp32-music firmware",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20 <23"
+  },
+  "dependencies": {
+    "NeteaseCloudMusicApi": "^4.32.0"
+  }
+}
